@@ -1,0 +1,42 @@
+<div class="card">
+  <div class="card-body">
+    <p>Build your Unique armors to fight the monsters</p>
+    <div class="form-group">
+      <label for="armorType">Armor Type:</label>
+      <select id="armorType" class="form-control">
+        <option value="">Please select armor type</option>
+        <option value="head">Head Set</option>
+        <option value="chest">Chest Set</option>
+        <option value="gloves">Gloves Set</option>
+        <option value="waist">Waist Set</option>
+        <option value="legs">Legs Set</option>
+      </select>
+    </div>
+    {{#if armorSets}}
+    <div class="form-group">
+      <label for="armorSet">Armor Set Name:</label>
+      <select id="armorSet" class="form-control">
+        <option value="">Please select armor set</option>
+        {{#each armorSets}}
+        <option value="{{this.name}}">{{this.name}}</option>
+        {{/each}}
+      </select>
+    </div>
+    {{else}}
+    <div class="form-group">
+      <label for="armorSet">Armor Set Name:</label>
+      <select id="armorSet" class="form-control" disabled>
+        <option value="">Please select armor type first</option>
+      </select>
+    </div>
+    {{/if}}
+    <button id="saveButton" class="btn btn-primary">Save</button>
+  </div>
+</div>
+
+<div id="selectedArmorSets">
+  <h4>Selected Armor Sets:</h4>
+  <ul id="selectedArmorList"></ul>
+</div>
+
+<script src="/js/buildit.js"></script>

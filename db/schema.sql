@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS monster_db;
+CREATE DATABASE monster_db;

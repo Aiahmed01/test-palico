@@ -1,0 +1,29 @@
+<!-- Add the armor type buttons -->
+<div class="armor-type-buttons">
+  <button class="armor-type-button active" data-type="all">All Types</button>
+  <button class="armor-type-button" data-type="head">Head</button>
+  <button class="armor-type-button" data-type="chest">Chest</button>
+  <button class="armor-type-button" data-type="gloves">Gloves</button>
+  <button class="armor-type-button" data-type="waist">Waist</button>
+  <button class="armor-type-button" data-type="legs">Legs</button>
+</div>
+
+<!-- Armor table -->
+<table class="armor-table">
+  <thead>
+    <tr>
+      <th>Armor Set Names</th>
+      <th>ArmorType</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each armors}}
+      <tr class="armor-row" data-type="{{this.type}}">
+        <td>{{this.name}}</td>
+        <td>{{this.type}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+<script src="/js/select.js"></script>

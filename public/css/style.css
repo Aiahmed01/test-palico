@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'MonsterHunter';
+  src: url('/MonsterHunter.ttf') format('truetype');
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(to right, green, lightgreen);
+  height: 129px;
+}
+
+h1 {
+  font-size: 46px;
+  font-family: MonsterHunter;
+  background: -webkit-linear-gradient(rgb(199, 76, 76) , rgb(38, 38, 206));
+  -webkit-background-clip: text; /* THIS IS FINE */
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+#navLi 
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+ul {
+  margin-top: 25px;
+}
+
+li {
+  margin: 7px;
+  display: flex;
+  justify-content: start;
+  vertical-align: baseline;
+}
+.armor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.armor-table th,
+.armor-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.armor-table th {
+  background-color: #f2f2f2;
+}
+
+.armor-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.armor-table .armor-row {
+  display: none;
+}
+
+input {
+  margin: 3px;
+  padding: 9px;
+}
+
+/* header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+} */
+
+button {
+  padding: 2px;
+}
+
+.account {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif; /* for now */
+  font-weight: bold;
+  text-align: end;
+  display: flex;
+  margin: 4px;
+  text-align: auto;
+  padding: 2px;
+}
+
+.saveDelete { /* for now */
+  margin-left: 9px;
+}
+
+/* .no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+} */

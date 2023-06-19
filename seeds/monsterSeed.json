@@ -1,0 +1,137 @@
+[
+	{
+		"id": 1,
+		"type": "head",
+		"name": "Leather Headgear"
+	},
+	{
+		"id": 2,
+		"type": "chest",
+		"name": "Leather Mail"
+	},
+	{
+		"id": 3,
+		"type": "gloves",
+		"name": "Leather Gloves"
+	},
+	{
+		"id": 4,
+		"type": "waist",
+		"name": "Leather Belt"
+	},
+	{
+		"id": 5,
+		"type": "legs",
+		"name": "Leather Trousers"
+		
+	},
+	{
+		"id": 6,
+		"type": "head",
+    "name": "Chainmail Headgear"
+
+	
+	},
+	{
+		"id": 7,
+		"type": "chest",
+		"name": "Chainmail Vest"
+	},
+	{
+		"id": 8,
+		"type": "gloves",
+		"name": "Chainmail Gloves"
+		
+	},
+	{
+		"id": 9,
+		"type": "waist",
+		"name": "Chainmail Belt"
+		
+	},
+	{
+		"id": 10,
+		"type": "legs",
+		"name": "Chainmail Trousers"
+	},
+	{
+		"id": 11,
+		"type": "head",
+		"name": "Hunter's Headgear"
+	},
+	{
+		"id": 12,
+		"type": "chest",
+		"name": "Hunter's Mail"
+		
+	},
+	{
+		"id": 13,
+		"type": "gloves",
+		"name": "Hunter's Vambraces"
+		
+	},
+	{
+		"id": 14,
+		"type": "waist",
+    "name": "Hunter's Coil"
+		
+	},
+	{
+		"id": 15,
+		"type": "legs",
+		"name": "Hunter's Greaves"
+	},
+	{
+		"id": 16,
+		"type": "head",
+		"name": "Bone Helm"
+	},
+	{
+		"id": 17,
+		"type": "chest",
+    "name": "Bone Mail"
+	},
+	{
+		"id": 18,
+		"type": "gloves",
+		"name": "Bone Vambraces"
+	},
+	{
+		"id": 19,
+		"type": "waist",
+		"name": "Bone Coil"
+	},
+	{
+		"id": 20,
+		"type": "legs",
+		"name": "Bone Greaves"
+		
+	},
+	{
+		"id": 21,
+		"type": "head",
+		"name": "Vespoid Helm"
+		
+	},
+	{
+		"id": 22,
+		"type": "chest",
+		"name": "Vespoid Mail"
+	},
+	{
+		"id": 23,
+		"type": "gloves",
+		"name": "Vespoid Vambraces"
+	},
+	{
+		"id": 24,
+		"type": "waist",
+		"name": "Vespoid Coil"
+	},
+	{
+		"id": 25,
+		"type": "legs",
+		"name": "Vespoid Greaves"
+			}
+]
